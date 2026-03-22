@@ -17,7 +17,7 @@ sent_links = set()
 headers = {"User-Agent": "Mozilla/5.0"}
 
 # 🔹 أول تشغيل: نرجع 5 دقائق للخلف
-last_checked_time = datetime.now(timezone.utc) - timedelta(minutes=5)
+last_checked_time = datetime.now(timezone.utc) - timedelta(minutes=15)
 
 # 🔹 إرسال رسالة Telegram
 def send_message(text):
